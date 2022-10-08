@@ -22,52 +22,52 @@ export default function BSCollabs() {
           <div className="businesses">
             <div className="track">
               <figure className="business-logo">
-                <Image src={B1} />
+                <Image src={B1} alt="B1" />
               </figure>
               <figure className="business-logo">
-                <Image src={B2} />
+                <Image src={B2} alt="B2" />
               </figure>
               <figure className="business-logo">
-                <Image src={B3} />
+                <Image src={B3} alt="B3" />
               </figure>
               <figure className="business-logo">
-                <Image src={B4} />
+                <Image src={B4} alt="B4" />
               </figure>
               <figure className="business-logo">
-                <Image src={B5} />
+                <Image src={B5} alt="B5" />
               </figure>
               <figure className="business-logo">
-                <Image src={B6} />
+                <Image src={B6} alt="B6" />
               </figure>
               <figure className="business-logo">
-                <Image src={B7} />
+                <Image src={B7} alt="B7" />
               </figure>
               <figure className="business-logo">
-                <Image src={B8} />
+                <Image src={B8} alt="B8" />
               </figure>
               <figure className="business-logo">
-                <Image src={B1} />
+                <Image src={B1} alt="B1" />
               </figure>
               <figure className="business-logo">
-                <Image src={B2} />
+                <Image src={B2} alt="B2" />
               </figure>
               <figure className="business-logo">
-                <Image src={B3} />
+                <Image src={B3} alt="B3" />
               </figure>
               <figure className="business-logo">
-                <Image src={B4} />
+                <Image src={B4} alt="B4" />
               </figure>
               <figure className="business-logo">
-                <Image src={B5} />
+                <Image src={B5} alt="B5" />
               </figure>
               <figure className="business-logo">
-                <Image src={B6} />
+                <Image src={B6} alt="B6" />
               </figure>
               <figure className="business-logo">
-                <Image src={B7} />
+                <Image src={B7} alt="B7" />
               </figure>
               <figure className="business-logo">
-                <Image src={B8} />
+                <Image src={B8} alt="B8" />
               </figure>
             </div>
           </div>

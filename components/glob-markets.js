@@ -21,7 +21,7 @@ export default function GlobMarkets() {
           <div className="global-markets-main">
             <div className="market">
               <figure className="flag">
-                <Image src={SRI} />
+                <Image src={SRI} alt="SRI" />
               </figure>
               <div className="market-name">
                 <span>Sri Lanka (MALIBAN BISCUIT MANUFACTORIES, LTD)</span>
@@ -29,7 +29,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={CNA} />
+                <Image src={CNA} alt="CNA" />
               </figure>
               <div className="market-name">
                 <span>Canada (Canpressco)</span>
@@ -37,7 +37,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={MLY} />
+                <Image src={MLY} alt="MLY" />
               </figure>
               <div className="market-name">
                 <span>Malaysia (Antara Commodities)</span>
@@ -45,7 +45,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={KNY} />
+                <Image src={KNY} alt="KNY" />
               </figure>
               <div className="market-name">
                 <span>Kenya (Pwani Oil Products)</span>
@@ -53,7 +53,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={CON} />
+                <Image src={CON} alt="CON" />
               </figure>
               <div className="market-name">
                 <span>Republic of Congo (Dadanada Croup)</span>
@@ -61,7 +61,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={KZH} />
+                <Image src={KZH} alt="KZH" />
               </figure>
               <div className="market-name">
                 <span>Kazahstan (Food Baker, LB)</span>
@@ -69,7 +69,7 @@ export default function GlobMarkets() {
             </div>
             <div className="market">
               <figure className="flag">
-                <Image src={USA} />
+                <Image src={USA} alt="USA" />
               </figure>
               <div className="market-name">
                 <span>United States (Tropical Traditions)</span>

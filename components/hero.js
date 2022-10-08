@@ -51,6 +51,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="1"
               />
             </motion.figure>
           ) : background === 2 ? (
@@ -65,6 +66,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="2"
               />
             </motion.figure>
           ) : background === 3 ? (
@@ -79,6 +81,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="3"
               />
             </motion.figure>
           ) : background === 4 ? (
@@ -93,6 +96,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="4"
               />
             </motion.figure>
           ) : background == 5 ? (
@@ -107,6 +111,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="5"
               />
             </motion.figure>
           ) : background === 6 ? (
@@ -121,6 +126,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="6"
               />
             </motion.figure>
           ) : background == 7 ? (
@@ -135,6 +141,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="7"
               />
             </motion.figure>
           ) : background === 8 ? (
@@ -149,6 +156,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="8"
               />
             </motion.figure>
           ) : background === 9 ? (
@@ -163,6 +171,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="9"
               />
             </motion.figure>
           ) : (
@@ -177,6 +186,7 @@ export default function Hero() {
                 layout="fill"
                 objectFit="cover"
                 placeholder="VINCEOLEO Background"
+                alt="10"
               />
             </motion.figure>
           )}

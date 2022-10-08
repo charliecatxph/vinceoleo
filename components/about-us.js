@@ -13,7 +13,7 @@ export default function AboutUs() {
             <h1>About Us</h1>
             <div className="about-me-main">
               <figure className="image">
-                <Image src={Swing} />
+                <Image src={Swing} alt="Illustration" />
               </figure>
               <div className="about-me-text">
                 <p>
