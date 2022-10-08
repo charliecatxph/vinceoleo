@@ -38,6 +38,19 @@
                     }
                 }
             }
+            .show-more {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                button {
+                    font-family: "Montserrat", sans-serif;
+                    background: none;
+                    border: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
     }
 }

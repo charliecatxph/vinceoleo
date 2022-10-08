@@ -47,13 +47,10 @@ export default function Products() {
                 <h3>SOYA-BASED PRODUCTS</h3>
               </div>
               <ul>
-                <li>CFAD</li>
-                <li>PFAD</li>
-                <li>Copra Meal</li>
-                <li>VCO White Meal</li>
-                <li>Coco Vinegar (Organic)</li>
-                <li>Coco Sugar</li>
-                <li>Coco Jam</li>
+                <li>Fresh Tofu</li>
+                <li>Chilled Taho (Soya)</li>
+                <li>Soy Milk</li>
+                <li>Soy Coffee</li>
               </ul>
             </div>
             <div className="product-box">

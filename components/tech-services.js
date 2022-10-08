@@ -15,7 +15,7 @@ export default function TechServices() {
           <div className="tech-serv-main">
             <div className="tech-infos">
               <figure className="image">
-                <Image src={TSV} />
+                <Image src={TSV} alt="TSV" />
               </figure>
               <ul>
                 <li>Oils Fats R&#38;D /QC Laboratory set up</li>

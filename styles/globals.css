@@ -319,6 +319,19 @@
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
+.global-markets .container .wrapper .show-more {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.global-markets .container .wrapper .show-more button {
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  border: none;
+}
+.global-markets .container .wrapper .show-more button:hover {
+  text-decoration: underline;
+}
 
 .technical-services {
   padding-bottom: 2rem;

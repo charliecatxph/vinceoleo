@@ -18,6 +18,7 @@ import { useState } from "react";
 // toastify
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import PhilippineMarket from "../components/philippine-markets";
 
 export default function Page() {
   const [mobileNav, setMobileNav] = useState(false);
@@ -40,6 +41,7 @@ export default function Page() {
         <BSCollabs />
         <AboutUs />
         <GlobMarkets />
+        <PhilippineMarket />
         <TechServices />
         <Products />
         <Contact />
