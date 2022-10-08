@@ -53,9 +53,6 @@ export default function PhilippineMarket() {
               .map((d, i) => {
                 return (
                   <div className="market" key={i}>
-                    <figure className="flag">
-                      <Image src={PHL} alt="flag" />
-                    </figure>
                     <div className="market-name">
                       <span>{d}</span>
                     </div>

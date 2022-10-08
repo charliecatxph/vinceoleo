@@ -144,9 +144,10 @@ export default function TechServices() {
                 <li>Oils &#38; Fats Marketing/Technical Services</li>
                 <li>Biofuels Technology</li>
                 <li>Nutraceuticals Product Development</li>
-                <li>Palm Oil Farming/Plantation</li>
-                <li>Upstreaming/Down Streaming</li>
-                <li>Coconut Farming/Plantation</li>
+                <li>
+                  Palm &#38; Coconut Farming/Plantation Upstreaming/Down
+                  Streaming
+                </li>
               </ul>
             </div>
           </div>
