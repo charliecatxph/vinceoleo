@@ -20,7 +20,9 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Hero() {
-  const [background, setBackground] = useState(Math.floor(Math.random() * 10));
+  const [background, setBackground] = useState(
+    Math.floor(Math.random() * (10 - 1 + 1)) + 1
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {
