@@ -19,6 +19,19 @@ import { useEffect, useState } from "react";
 // framer
 import { motion, AnimatePresence } from "framer-motion";
 
+// variants
+const standard = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+  },
+  exit: {
+    opacity: 0,
+  },
+};
+
 export default function Hero() {
   const [background, setBackground] = useState(
     Math.floor(Math.random() * (10 - 1 + 1)) + 1
@@ -43,9 +56,10 @@ export default function Hero() {
         <AnimatePresence>
           {background === 1 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="1"
             >
               <Image
@@ -59,9 +73,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 2 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="2"
             >
               <Image
@@ -75,9 +90,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 3 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="3"
             >
               <Image
@@ -91,9 +107,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 4 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="4"
             >
               <Image
@@ -107,9 +124,10 @@ export default function Hero() {
             </motion.figure>
           ) : background == 5 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="5"
             >
               <Image
@@ -123,9 +141,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 6 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="6"
             >
               <Image
@@ -139,9 +158,10 @@ export default function Hero() {
             </motion.figure>
           ) : background == 7 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="7"
             >
               <Image
@@ -155,9 +175,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 8 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="8"
             >
               <Image
@@ -171,9 +192,10 @@ export default function Hero() {
             </motion.figure>
           ) : background === 9 ? (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="9"
             >
               <Image
@@ -187,9 +209,10 @@ export default function Hero() {
             </motion.figure>
           ) : (
             <motion.figure
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              variants={standard}
               key="10"
             >
               <Image
