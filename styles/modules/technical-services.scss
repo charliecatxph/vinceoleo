@@ -1,0 +1,56 @@
+.technical-services {
+    padding-bottom: 2rem;
+    .container {
+        .wrapper {
+            .title {
+                h1 {
+                    font-size: 1.2rem;
+                    font-family: "Playfair Display", serif;
+                    text-align: center;
+                    margin-top: 1rem;
+                    @media (min-width: 1024px) {
+                        font-size: 1.4rem;
+                        text-align: start;
+                    }
+                }
+            }
+            .tech-serv-main {
+                margin-top: 1rem;
+                .tech-infos {
+                    .image {
+                        max-width: 80%;
+                        max-height: 80%;
+                        margin: 0 auto;
+                        flex-basis: 50%;
+                    }
+                    ul {
+                        position: relative;
+                        top: -50px;
+                        flex-basis: 50%;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding: 1rem;
+                        background: #fffefc;
+                        border: 2px solid #f0e47b;
+                        box-shadow: 5px 5px 0px #4da57b;
+                        width: 100%;
+                        padding-left: 2rem;
+                        align-self: stretch;
+                        @media (min-width: 1024px) {
+                            font-size: 15px;
+                        }
+                    }
+                    @media (min-width: 768px) {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        ul {
+                            position: static;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

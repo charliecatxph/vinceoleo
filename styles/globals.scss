@@ -1,0 +1,39 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@800&family=Poppins:wght@700&display=swap");
+
+// local imports
+@import "./modules/hero.scss";
+@import "./modules/nav-bar.scss";
+@import "./modules/business-collabs.scss";
+@import "./modules/about-us.scss";
+@import "./modules/global-markets.scss";
+@import "./modules/technical-services.scss";
+@import "./modules/products.scss";
+@import "./modules/contact.scss";
+@import "./modules/footer.scss";
+@import "./modules/mobile-nav.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 7rem;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}
+
+.darken {
+    filter: brightness(0.9);
+}
+
+body {
+    background-color: #fffefc;
+}

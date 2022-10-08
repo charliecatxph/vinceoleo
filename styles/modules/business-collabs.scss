@@ -1,0 +1,39 @@
+.business-collabs {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    .container {
+        .wrapper {
+            .title {
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 12px;
+                letter-spacing: 2px;
+                padding: 0.2rem 0 1rem 0;
+            }
+            .businesses {
+                overflow: hidden;
+                .track {
+                    display: flex;
+                    width: calc(180px * 16);
+                    animation: scroll 60s infinite linear;
+                    .business-logo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 180px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-(180px * 8));
+    }
+}

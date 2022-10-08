@@ -1,0 +1,105 @@
+.contact {
+    .container {
+        .wrapper {
+            .title {
+                h1 {
+                    font-family: "Playfair Display", serif;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    @media (min-width: 1024px) {
+                        font-size: 1.4rem;
+                        text-align: left;
+                    }
+                }
+            }
+            .contact-main {
+                margin-top: 1rem;
+                border: 2px solid #4da57b;
+                padding: 1rem;
+                position: relative;
+                overflow: hidden;
+                .logo {
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 0;
+                    right: -100px;
+                    width: 400px;
+                    height: 400px;
+                    @media (min-width: 1024px) {
+                        right: 0;
+                    }
+                }
+
+                input {
+                    background: none;
+                    width: 100%;
+                    border: none;
+                    border-bottom: 2px solid #4da57b;
+                    padding: 1rem 0;
+                    font-family: "Montserrat", sans-serif;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                textarea {
+                    background: none;
+                    font-family: "Montserrat", sans-serif;
+                    border: none;
+                    border-bottom: 2px solid #4da57b;
+                    margin-top: 1rem;
+                    width: 100%;
+                    resize: none;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .title {
+                    text-align: center;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    @media (min-width: 1024px) {
+                        font-size: 1.2rem;
+                    }
+                }
+                .support-text {
+                    display: block;
+                    text-align: center;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: normal;
+                    font-size: 0.9rem;
+                    margin-top: 0.4rem;
+                }
+
+                form {
+                    margin-top: 1rem;
+                    max-width: 600px;
+                    margin: 0 auto;
+                    @media (min-width: 1024px) {
+                        .row-breaking {
+                            display: flex;
+                            gap: 10px;
+                        }
+                    }
+                    .submitter {
+                        margin-top: 20px;
+                        button {
+                            border: none;
+                            padding: 0.5rem 3rem;
+                            display: block;
+                            color: white;
+                            margin: 0 auto;
+                            background-color: #4da57b;
+                            font-family: "Poppins", sans-serif;
+                            font-weight: bold;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

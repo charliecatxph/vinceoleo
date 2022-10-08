@@ -1,0 +1,91 @@
+.hero {
+    height: clamp(600px, 100vh, 800px);
+    position: relative;
+    .background {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        filter: brightness(0.6);
+        z-index: -1;
+        @media (min-width: 1024px) {
+            height: 85%;
+            width: 68%;
+        }
+    }
+    .container {
+        .wrapper {
+            .landing-text {
+                h1 {
+                    margin-top: 9rem;
+                    font-size: 2.4rem;
+                    color: #6ee7ad;
+                    font-family: "Playfair Display", serif;
+                    @media (min-width: 768px) {
+                        margin-top: 10rem;
+                    }
+                    @media (min-width: 1024px) {
+                        max-width: 500px;
+                        font-size: 3rem;
+                        color: #ffb8b8;
+                        mix-blend-mode: exclusion;
+                    }
+                }
+                span {
+                    display: block;
+                    padding-top: 1rem;
+                    color: #fffefc;
+                    font-family: "Montserrat", serif;
+                    font-weight: 500;
+                    letter-spacing: 4px;
+                    @media (min-width: 1024px) {
+                        color: #000;
+                    }
+                }
+            }
+            .landing-buttons {
+                margin-top: 1.5rem;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+                max-width: 200px;
+                @media (min-width: 1024px) {
+                    max-width: 320px;
+                }
+                a {
+                    text-decoration: none;
+                    button {
+                        width: 100%;
+                        background: none;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0.5rem;
+                        color: #fffefc;
+                        font-family: "Montserrat", sans-serif;
+                        font-weight: 500;
+                        letter-spacing: 2px;
+                        font-size: 12px;
+                        &.about-btn {
+                            background: #4da57b;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        }
+                        &.contact-btn {
+                            background: #fffefc;
+                            border: 1px solid #f0e47b;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            color: #000;
+                        }
+                        @media (min-width: 1024px) {
+                            span {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

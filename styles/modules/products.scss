@@ -1,0 +1,47 @@
+.products {
+    .container {
+        .wrapper {
+            .title {
+                h1 {
+                    font-size: 1.2rem;
+                    font-family: "Playfair Display", serif;
+                    text-align: center;
+                    @media (min-width: 1024px) {
+                        font-size: 1.4rem;
+                        text-align: left;
+                    }
+                }
+            }
+            .products-main {
+                display: grid;
+                grid-template-columns: 1fr;
+                @media (min-width: 1024px) {
+                    grid-template-columns: 1fr 1fr;
+                }
+                gap: 10px;
+                margin-top: 10px;
+                .product-box {
+                    padding: 1rem;
+                    font-family: "Montserrat", sans-serif;
+                    background: #fffefc;
+                    border: 2px solid #4da57b;
+                    .product-title {
+                        h3 {
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                            font-size: 1rem;
+                        }
+                    }
+                    ul {
+                        margin-top: 0.5rem;
+                        font-size: 0.9rem;
+                        padding-left: 2rem;
+                        li {
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
