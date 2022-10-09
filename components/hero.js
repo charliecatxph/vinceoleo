@@ -231,7 +231,7 @@ export default function Hero() {
         <div className="wrapper">
           <div className="landing-text">
             <h1>
-              Your Preferred Partner In Food, Speciality Fats, &#38; Oils
+              Your Preferred Partner In Food, Specialty Fats, &#38; Oils
               Business
             </h1>
             <span>WE ARE, VINCEOLEO.</span>
