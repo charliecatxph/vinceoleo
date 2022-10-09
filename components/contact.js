@@ -194,7 +194,7 @@ export default function Contact() {
                     Submit
                   </motion.button>
                 ) : (
-                  <motion.button type="button">...</motion.button>
+                  ""
                 )}
               </div>
             </form>
